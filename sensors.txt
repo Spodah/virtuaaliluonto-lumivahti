@@ -1,0 +1,9 @@
+http://iopscience.iop.org/article/10.1088/1757-899X/149/1/012141/pdf
+
+Conclusion: IR-sensor exhibits much higher variance in error except against exceptionally soft materials. Snow not tested.
+
+https://theotherandygrove.com/ultrasonic-sensor-comparison-part-2/
+
+Conclusion: Data suggests that cheap and expensive sensors perform nearly identically.
+
+IR-sensors typically work at distances shorter than 80cm -> not suitable for all locations
