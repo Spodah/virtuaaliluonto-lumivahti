@@ -28,3 +28,4 @@ https://spellfoundry.com/sleepy-pi/sleepy-pi-faq/
 http://terokarvinen.com/2017/aikataulu-monialaprojekti-infra-pro4tn001-5-kevat-2018-10-op
 https://raspluonto.wordpress.com/
 https://www.geekstips.com/arduino-snow-depth-remote-sensing-with-ultrasonic-sensor/
+http://www.instructables.com/id/Solar-Powered-WiFi-Weather-Station/
