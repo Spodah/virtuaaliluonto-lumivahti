@@ -1,1 +1,2 @@
 https://wp.josh.com/2014/06/23/no-external-pull-up-needed-for-ds18b20-temp-sensor/
+NOTE: https://github.com/milesburton/Arduino-Temperature-Control-Library/archive/master.zip contains OneWire.cpp and OneWire.h that cause conflict with https://github.com/bigjosh/OneWireNoResistor/releases/download/1.0/OneWireNoResistor-1.0.zip
