@@ -51,7 +51,16 @@ void loop() {
   delayMicroseconds(10);
   digitalWrite(trigPin, LOW);
   duration = pulseIn(echoPin, HIGH);
-  distance = (duration*10/2)/speedofsound;
+  distance = 1.25*(duration*10/2)/speedofsound;
+  while(distance>300){
+    digitalWrite(trigPin, LOW);
+    delayMicroseconds(2);
+    digitalWrite(trigPin, HIGH);
+    delayMicroseconds(10);
+    digitalWrite(trigPin, LOW);
+    duration = pulseIn(echoPin, HIGH);
+    distance = 1.25*(duration*10/2)/speedofsound;
+  }
   Serial.print(distance);
   Serial.print("\n");
   delay(500);
