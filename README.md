@@ -1,30 +1,25 @@
 # virtuaaliluonto-lumivahti
 
 # Ideas
-- lumen syvyys
-- lumen tiheys?
-- sääasema(lämpötila, tuulen nopeus, muuta?)
-- mittaukset väliajoin(1h?)
-- akku
-- säänkestävä
-- tulokset nettisivulle
+- snow depth
+- temperature
+- no need for constant data - measurements once per hour
+- battery and possible solar panel
+- weather proof
+- data published online
 
 
 # Execution
-- Raspberry pi pohjainen
-- mittarit: ultra-ääni mittari lumen syvyyden mittaamiseen
-- thermistori lämpötilaan
-- tuulen nopeus?
-- (valoisuuden mittaus?)
-- säänkestävyys ->kotelo Pi:lle, sensorit kotelon ulkopuolella? Vaarana kosteuden kertyminen koteloon
-- mittaukset väliajoin: Pi herää unesta tunnin välein, tekee mittaukset ja lähettää palvelimelle ->ehkä scp:llä suoraan html-dokumentti?
-- nettisivu erillisellä palvelimella (VPS?), näyttää tulokset(graafinen muoto? Hyvä ulkoasu bonus)
+- Arduino or ESP8266 based
+- sensors: ultrasound sensor to measure distance, thermistor for temperature
+- weatherproofing: waterproof coating? a case for arduino. Ultrasonic sensor must be exposed?
+- Arduino gathers data and sends it to server once per hour. MQTT or HTTP API
+- Webpage on a server that displays results
 
 # Testing
-- ulkona tai hallissa
+- mainly outdoors. More data needed for the distance sensor.
 
 # Links
-https://spellfoundry.com/sleepy-pi/sleepy-pi-faq/
 http://terokarvinen.com/2017/aikataulu-monialaprojekti-infra-pro4tn001-5-kevat-2018-10-op
 https://raspluonto.wordpress.com/
 https://www.geekstips.com/arduino-snow-depth-remote-sensing-with-ultrasonic-sensor/
