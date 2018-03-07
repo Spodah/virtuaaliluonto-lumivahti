@@ -24,3 +24,4 @@ http://terokarvinen.com/2017/aikataulu-monialaprojekti-infra-pro4tn001-5-kevat-2
 https://raspluonto.wordpress.com/
 https://www.geekstips.com/arduino-snow-depth-remote-sensing-with-ultrasonic-sensor/
 http://www.instructables.com/id/Solar-Powered-WiFi-Weather-Station/
+http://www.makechronicles.com/2012/06/09/arduino-project-11-2d3d-pictures-measuring-a-water-tank-level-v2-hc-sr04-ultrasonic-rangefinderarduino-uno1-0/
