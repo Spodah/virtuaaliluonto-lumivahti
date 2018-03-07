@@ -2,10 +2,10 @@ http://www.instructables.com/id/Programming-the-ESP8266-12E-using-Arduino-softwa
 
 https://en.wikipedia.org/wiki/ESP8266
 
-https://en.wikipedia.org/wiki/ESP32
+https://electronics.stackexchange.com/questions/67077/how-to-water-protect-my-arduino
 
-https://github.com/micropython/micropython
+https://electronics.stackexchange.com/questions/90385/using-an-arduino-in-below-freezing-temperatures
 
-https://www.espressif.com/en/products/hardware/esp-wrover-kit/overview
+https://3.14.by/en/read/arduino-liquid-nitrogen-overclocking
 
 Notes: ESP32-DevKitC or ESP-WROVER-Kit likely the best option for the final prototype(with ESP-8266-12e another option), Arduino Uno or Arduino Genuino for testing sensors.
