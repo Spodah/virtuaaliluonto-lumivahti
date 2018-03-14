@@ -45,14 +45,7 @@ void loop() {
   long duration, distance;
   float speedofsound;
   speedofsound = 331.3+0.606*tempC;
-  digitalWrite(trigPin, LOW);
-  delayMicroseconds(2);
-  digitalWrite(trigPin, HIGH);
-  delayMicroseconds(10);
-  digitalWrite(trigPin, LOW);
-  duration = pulseIn(echoPin, HIGH);
-  distance = 1.25*(duration*10/2)/speedofsound;
-  while(distance>300){
+  for(int i=0; i<10; i++){
     digitalWrite(trigPin, LOW);
     delayMicroseconds(2);
     digitalWrite(trigPin, HIGH);
@@ -60,6 +53,12 @@ void loop() {
     digitalWrite(trigPin, LOW);
     duration = pulseIn(echoPin, HIGH);
     distance = 1.25*(duration*10/2)/speedofsound;
+    if(distance<300){
+      break;
+    }
+    else if(i=9){
+      distance = -5;
+    }
   }
   Serial.print(distance);
   Serial.print("\n");
