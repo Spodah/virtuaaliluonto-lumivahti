@@ -25,3 +25,7 @@ https://raspluonto.wordpress.com/
 https://www.geekstips.com/arduino-snow-depth-remote-sensing-with-ultrasonic-sensor/
 http://www.instructables.com/id/Solar-Powered-WiFi-Weather-Station/
 http://www.makechronicles.com/2012/06/09/arduino-project-11-2d3d-pictures-measuring-a-water-tank-level-v2-hc-sr04-ultrasonic-rangefinderarduino-uno1-0/
+
+The project was funded by:
+
+![alt text](https://github.com/wikkii/raspluonto/blob/master/pictures/maaseuturahastoEU.jpg "Maaseuturahasto")
