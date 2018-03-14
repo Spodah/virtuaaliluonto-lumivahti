@@ -1,0 +1,56 @@
+/* Div for the status tables */
+
+#maincontent {
+	
+	background-color: #e1f5f7;
+	padding-right: 30px;
+	padding-left: 30px;
+	padding-top: 15px;
+	
+
+}
+
+/* Table column headings */
+
+thead {
+
+	background-color: #ffffff;
+
+}
+/* Div for the snow picture */
+
+#picture {
+	
+	padding-right: 15px;
+	padding-left: 15px;
+	padding-top: 30px;
+	padding-bottom: 15px;
+	text-align: center;
+}
+
+/* Makes the snow picture smaller on devices smaller than 768px in width. */
+
+@media (max-width: 768px) {
+
+#logo	{width: 120px}
+
+}
+
+
+	
+
+/* End credits */
+
+#credits,#fund,#eu {
+	
+	color:blue ;
+	text-align: left;
+
+	
+}
+}
+
+
+
+	
+}
