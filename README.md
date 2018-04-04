@@ -28,4 +28,4 @@ http://www.makechronicles.com/2012/06/09/arduino-project-11-2d3d-pictures-measur
 
 The project was funded by:
 
-![alt text](https://github.com/wikkii/raspluonto/blob/master/pictures/maaseuturahastoEU.jpg "Maaseuturahasto")
+![alt text](https://github.com/Spodah/virtuaaliluonto-lumivahti/tree/master/EU%20logo")
