@@ -6,4 +6,6 @@
 
 *Niklas*
 
-4/4 5 hours SIM800L research
+2/4 1,5 hour writing html from JSON via javascript (finished)
+
+4/4 5 hours SIM800L research, (links to sites found on "SIM 800L links")
