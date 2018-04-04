@@ -1,6 +1,6 @@
 import mysql.connector
-from datetime import time, datetime
-today="""'"""+datetime.now().strftime('%H:%M:%S')+"""'"""
+import time
+today=int(time.time())
 try:
 	cnx = mysql.connector.connect(option_files='connector.cnf')
 except mysql.connector.Error as err:
@@ -8,7 +8,7 @@ except mysql.connector.Error as err:
 cursor = cnx.cursor()
 cursor.execute("INSERT INTO Lumivahti "
 		"(time, depth, temperature)"
-		"VALUES (" + today + ", 5, -15)")
+		"VALUES (" + str(today) + ", 5, -15)")
 cnx.commit()
 
 cursor.close()
