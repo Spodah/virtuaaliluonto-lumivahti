@@ -4,6 +4,8 @@
 
 4/4 5 hours Flask + jsonify test finished, research SIM800L
 
+6/4 3 hours making blogpost(https://lumivahti.wordpress.com/2018/04/06/back-end-python-flask-and-mysql/) and researching MQTT solutions
+
 *Niklas*
 
 2/4 1,5 hour writing html from JSON via javascript (finished)

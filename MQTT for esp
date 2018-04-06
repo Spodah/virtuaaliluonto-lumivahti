@@ -1,0 +1,7 @@
+https://github.com/eclipse/paho.mqtt.embedded-c
+https://github.com/knolleary/pubsubclient
+https://github.com/adafruit/Adafruit_MQTT_Library
+Comment: Made for Wi-fi modules/esp, not SIM800.
+
+https://github.com/elementzonline/SIM800_MQTT
+Comment: Not suitable due to licensing
