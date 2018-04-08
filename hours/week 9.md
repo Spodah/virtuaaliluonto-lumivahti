@@ -13,3 +13,5 @@
 4/4 5 hours SIM800L research, (links to sites found on "SIM 800L links")
 
 5/4 2 hours practise soldering, solder antenna and pin headers to SIM800L 
+
+6/4 4 hours making blogpost about SIM800L GSM/GPRS module (https://lumivahti.wordpress.com/2018/04/06/sim-800l-gsm-gprs-module/) and creating a testcode for the module
