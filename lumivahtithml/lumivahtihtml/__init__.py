@@ -1,3 +1,4 @@
+#! /usr/bin/env python
 import mysql.connector
 from mysql.connector import errorcode
 from flask import Flask, render_template, jsonify, json, request

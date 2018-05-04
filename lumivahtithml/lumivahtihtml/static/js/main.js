@@ -19,6 +19,7 @@ function getData () {
 
 		// Save JSON data to a variable
 		var mySensorData = JSON.parse(pageRequest.responseText);
+		console.log(mySensorData);
 		// Call the renderTest function and pass it to mySensorData variable
 		renderData(mySensorData);
 	};
