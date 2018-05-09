@@ -2,7 +2,7 @@ _Juuso_
 
 02/5 3 hours researching wsgi+flask
 
-04/5 7 hours getting ESP8266-12E from Tero Karvinen and testing it with ultrasound sensor
+04/5 7 hours getting ESP8266-12E from Tero Karvinen and testing it with ultrasound sensor, refactoring and testing lumivahtihtml
 
 _Niklas_
 
