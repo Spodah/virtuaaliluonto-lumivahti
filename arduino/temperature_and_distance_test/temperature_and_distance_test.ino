@@ -58,6 +58,7 @@ void loop() {
     }
     else if(i=9){
       distance = -5;
+      break;
     }
   }
   Serial.print(distance);
